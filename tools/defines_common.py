@@ -10,5 +10,6 @@ cflags_includes = [
     # So for example, if I'd want my project to search for headers from "src/system",
     # I'd put "/I src/system" here
     "/I src",
-    "/I src/xdk"
+    "/I src/xdk",
+    "/I src/xdk/LIBCMT"
 ]
