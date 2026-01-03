@@ -1,0 +1,16 @@
+{
+    "progress_categories": {
+        "sdk": "XDK Code",
+        "engine": "Engine Code"
+    },
+    "asflags": [],
+    "ldflags": [],
+    "cflags": {
+        "base": {
+            "flags": [
+                "/nologo",
+                "/c"
+            ]
+        }
+    }
+}
