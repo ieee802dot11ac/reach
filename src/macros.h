@@ -8,6 +8,8 @@
 #define SEH_TRY __try
 #define SEH_EXCEPT __except
 #define SEH_FINALLY __finally
+
+#define THREAD_LOCAL __declspec(thread)
 #else
 #define CDECL
 #define STDCALL
@@ -16,6 +18,8 @@
 #define SEH_TRY try
 #define SEH_EXCEPT catch
 #define SEH_FINALLY ;
+
+#define THREAD_LOCAL thread_local
 #endif
 
 #define ROTATE_LEFT(x, i) (((x) << (i)) | ((x) >> ((sizeof((x)) * 8) - (i))))
