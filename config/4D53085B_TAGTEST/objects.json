@@ -1,0 +1,10 @@
+{
+    "haloscript": {
+        "progress_category": "engine",
+        "mw_version": "X360/16.00.11886.00",
+        "cflags": "base",
+        "objects": {
+            "hs/hs.cpp": "NonMatching"
+        }
+    }
+}
